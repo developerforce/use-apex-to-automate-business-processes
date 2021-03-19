@@ -1,0 +1,11 @@
+OrderItem freeBouquet = new OrderItem(
+    OrderId = currentOrder.id,
+    //this is the order we're linking the bouquet to
+    //PricebookEntryId = entry.id,
+    numberOfFlowers__c = 3,
+    description = 'FREE Bouquet',
+    Quantity = 1,
+    colorTheme__c = 'Spectacular Sunset',
+    percentOfOpening__c = 0,
+    UnitPrice = 0.00
+);
