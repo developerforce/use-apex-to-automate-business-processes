@@ -7,4 +7,5 @@ OrderItem freeBouquet = new OrderItem(
     colorTheme__c = 'Spectacular Sunset',
     percentOfOpening__c = 0,
     UnitPrice = 0.00
+    saleprice = 1,
 );
